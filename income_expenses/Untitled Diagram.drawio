@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.0">
+  <diagram name="Page-1" id="Sv9Pvp_6kYlgMJHkZxQY">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="เริ่มต้นการใช้งาน" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-13" edge="1" parent="1" source="AAfccUDvTVtv9i78fEZJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AAfccUDvTVtv9i78fEZJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="ใส่ข้อมูลรายรับรายจ่าย" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-12" edge="1" parent="1" source="AAfccUDvTVtv9i78fEZJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AAfccUDvTVtv9i78fEZJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="กดบันทึก" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="ข้อมูลเข้า data" vertex="1">
+          <mxGeometry height="70" width="165" x="343" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-7" edge="1" parent="1" source="AAfccUDvTVtv9i78fEZJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AAfccUDvTVtv9i78fEZJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="640" />
+              <mxPoint x="630" y="200" />
+            </Array>
+            <mxPoint x="630" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="ถ้าต้องการลบข้อมูล" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ลบ&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="จบ" vertex="1">
+          <mxGeometry height="60" width="100" x="376" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-10" edge="1" parent="1" source="AAfccUDvTVtv9i78fEZJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="AAfccUDvTVtv9i78fEZJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AAfccUDvTVtv9i78fEZJ-11" edge="1" parent="1" source="AAfccUDvTVtv9i78fEZJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="AAfccUDvTVtv9i78fEZJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
